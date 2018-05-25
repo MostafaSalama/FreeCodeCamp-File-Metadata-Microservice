@@ -36,5 +36,7 @@ function handleRequest(req, res) {
     }
 }
 server.on('request', handleRequest);
-
-server.listen(3000);
+const port = process.env.PORT || 3000;
+server.listen(port,function () {
+    console.log('listening to port' + port);
+});
