@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple</title>
+</head>
+<body>
+<form action="/upload" method="post" id="submit" enctype="multipart/form-data">
+    <div>
+        <label for="file">Choose a file</label>
+        <input type="file" id="file" name="fileUploaded">
+    </div>
+    <div>
+        <button>Send the file</button>
+    </div>
+</form>
+<script>
+    const myForm = document.getElementById('submit');
+    myForm.addEventListener('submit',(e)=>{
+    })
+</script>
+</body>
+</html>
