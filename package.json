@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/MostafaSalama/FreeCodeCamp-File-Metadata-Microservice.git",
   "author": "Mostafa Salama <mostafalearning2016@gmail.com>",
+  "scripts": {
+    "start": "node index"
+  },
   "license": "MIT",
   "dependencies": {
     "formidable": "^1.2.1"
